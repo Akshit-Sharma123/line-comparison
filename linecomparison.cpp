@@ -25,7 +25,10 @@ int main(){
     if(line1length==line2length){
         cout<<"Two lines are equal"<<endl;
     }
+    else if(line1length>line2length){
+      cout<<"Line 1 length is greater"<<endl;
+    }
     else{
-      cout<<"Two lines are not equal"<<endl;
+        cout<<"Line 2 length is greater"<<endl;
     }
 }
